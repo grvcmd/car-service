@@ -5,7 +5,7 @@ from main import services
 def get_service1():
     while True:
         try:
-            s1 = str(input('Select first service: '))
+            s1 = str(input('\nSelect first service: '))
             s1 = s1.capitalize()
 
             if s1 not in services:

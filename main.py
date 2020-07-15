@@ -4,7 +4,7 @@ from util import menu_functions
 
 # Print out services
 def print_services():
-    print("Welcome to Davy's Auto Shop!")
+    print("Welcome to Davy's Auto Shop!\n")
     time.sleep(1)
     print("Here are the services we provide.")
     print('(1) Oil change -- $35')
