@@ -38,7 +38,7 @@ class Customer:
 
 
 if __name__ == '__main__':
-    print(print_services())
+    print_services()
 
     customer = Customer(
         menu_functions.get_service1(),
