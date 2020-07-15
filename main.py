@@ -4,7 +4,9 @@ from util import menu_functions
 
 # Print out services
 def print_services():
-    print("Davy's Auto Shop")
+    print("Welcome to Davy's Auto Shop!")
+    time.sleep(1)
+    print("Here are the services we provide.")
     print('(1) Oil change -- $35')
     print('(2) Tire rotation -- $19')
     print('(3) Car wash -- $7')
@@ -36,6 +38,8 @@ class Customer:
 
 
 if __name__ == '__main__':
+    print(print_services())
+
     customer = Customer(
         menu_functions.get_service1(),
         menu_functions.get_service2()
